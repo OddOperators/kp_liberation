@@ -314,6 +314,14 @@
 						<Russian>Мобильная КШМ</Russian>
 						<Italian>Respawn Mobile</Italian>
 				</Key>
+				<Key ID="STR_RESPAWN_SUB">
+						<Original>Mobile respawn submarine</Original>
+						<French>Respawn mobile</French>
+						<German>Mobiler Respawn</German>
+						<Spanish>Respawn móvil</Spanish>
+						<Russian>Мобильная КШМ</Russian>
+						<Italian>Respawn Mobile</Italian>
+				</Key>
 				<Key ID="STR_ARSENAL_BOX">
 						<Original>Arsenal box</Original>
 						<French>Caisse à arsenal</French>

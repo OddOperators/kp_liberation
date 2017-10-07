@@ -54,7 +54,7 @@ while { true } do {
 
 	if (KP_liberation_mobilearsenal) then {KP_liberation_neararsenal = [ ( (getpos player) nearobjects [ Arsenal_typename, _distarsenal ]), { getObjectType _x >= 8 } ] call BIS_fnc_conditionalSelect;} else {KP_liberation_neararsenal = [];};
 	_nearfobbox = ( (getpos player) nearEntities [ [ FOB_box_typename, FOB_truck_typename ] , _distbuildfob ] );
-	if (KP_liberation_mobilerespawn) then {KP_liberation_nearspawn = ( (getpos player) nearEntities [ [ Respawn_truck_typename, huron_typename ] , _distspawn ] );} else {KP_liberation_nearspawn = [];};
+	if (KP_liberation_mobilerespawn) then {KP_liberation_nearspawn = ( (getpos player) nearEntities [ [ Respawn_truck_typename, submarine_typename ] , _distspawn ] );} else {KP_liberation_nearspawn = [];};
 
 	if ( GRLIB_removefobboxes ) then {
 		GRLIB_removefobboxes = false;

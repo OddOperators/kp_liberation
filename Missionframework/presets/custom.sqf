@@ -20,12 +20,13 @@ KP_liberation_boat_classname = "B_Boat_Transport_01_F"; 				// These are the boa
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";		// A small storage area for resources.																									Default is "ContainmentArea_02_sand_F".
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";		// A large storage area for resources.																									Default is "ContainmentArea_01_sand_F".
 KP_liberation_recycle_building = "Land_CarService_F";					// The building defined to unlock FOB recycling functionality.																			Default is "Land_CarService_F".
-KP_liberation_air_vehicle_building = "Land_Radar_Small_F";				// The building defined to unlock FOB air vehicle functionality.																		Default is "Land_Radar_Small_F".
+KP_liberation_air_vehicle_building = "Land_Airport_Tower_F";				// The building defined to unlock FOB air vehicle functionality.																		Default is "Land_Radar_Small_F".
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";				// The helipad used to increase the GLOBAL rotary-wing cap.																				Default is "Land_HelipadSquare_F".
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";				// The hangar used to increase the GLOBAL fixed-wing cap.																				Default is "Land_TentHangar_V1_F".
 KP_liberation_supply_crate = "CargoNet_01_box_F";						// This defines the supply crates, as in resources.																						Default is "CargoNet_01_box_F".
 KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";						// This defines the ammunition crates.																									Default is "B_CargoNet_01_ammo_F".
 KP_liberation_fuel_crate = "CargoNet_01_barrels_F";						// This defines the fuel crates.																										Default is "CargoNet_01_barrels_F".
+submarine_typename = "B_SDV_01_F";
 
 /* - Friendly classnames.
 Each array below represents one of the 7 pages within the build menu. 
@@ -90,8 +91,7 @@ light_vehicles = [
 	["B_UGV_01_rcws_F",150,40,50],										//UGV Stomper (RCWS)
 	["B_Boat_Transport_01_F",100,0,25],									//Assault Boat
 	["B_Boat_Armed_01_minigun_F",200,80,75],							//Speedboat Minigun
-	["rhsusf_mkvsoc",250,200,100],										//Mk.V SOCOM
-	["B_SDV_01_F",150,0,50]												//SDV
+	["rhsusf_mkvsoc",250,200,100]										//Mk.V SOCOM
 ];
 
 heavy_vehicles = [
@@ -253,7 +253,8 @@ buildings = [
 
 support_vehicles = [
 	[Arsenal_typename,100,200,0],
-	[Respawn_truck_typename,200,0,100],
+	[Respawn_truck_typename,300,0,150],
+	[submarine_typename,200,0,100],
 	[FOB_box_typename,300,500,0],
 	[FOB_truck_typename,300,500,75],
 	[KP_liberation_small_storage_building,0,0,0],
