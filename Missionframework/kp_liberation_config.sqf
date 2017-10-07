@@ -68,7 +68,7 @@ GRLIB_fob_range = 125;																							// Build range around the main FOB 
 GRLIB_halo_altitude = 2500;																						// Altitude in metres for the HALO jump.
 GRLIB_secondary_missions_costs = [15, 10, 8];																	// Intel price for the secondary missions [FOB hunting, Convoy ambush, SAR].
 GRLIB_secondary_objective_impact = 0.6;																			// The percentage impact against enemy combat readiness for a successful FOB hunt.
-GRLIB_recycling_percentage = 0.5;																				// Percentage of resources you get back from recycling.
+GRLIB_recycling_percentage = 0.75;																				// Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 45				/ GRLIB_resources_multiplier;								// Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
 GRLIB_sector_size = 1000;																						// Range to activate a sector.
@@ -80,7 +80,7 @@ GRLIB_radiotower_size = 2500;																					// Radio Tower scanning range.
 GRLIB_surrender_chance = 80;																					// Chance that enemy infantry will surrender after heavy losses are encountered.
 
 GRLIB_civilians_amount = 10 						* GRLIB_civilian_activity;									// Civilian count multiplier.
-GRLIB_cleanup_delay = 1200;																						// Time in seconds until bodies of dead soldiers are cleaned up.
+GRLIB_cleanup_delay = 600;																						// Time in seconds until bodies of dead soldiers are cleaned up.
 
 GRLIB_blufor_cap = 100								* GRLIB_unitcap;											// Cap for BLUFOR.
 GRLIB_sector_cap = 180								* GRLIB_unitcap;											// Cap for sector defenders.
