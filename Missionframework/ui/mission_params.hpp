@@ -16,7 +16,7 @@ class Params
 		title = $STR_PARAMS_DIFFICULTY;
 		values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
 		texts[] = { $STR_PARAMS_DIFFICULTY1, $STR_PARAMS_DIFFICULTY2, $STR_PARAMS_DIFFICULTY3, $STR_PARAMS_DIFFICULTY4, $STR_PARAMS_DIFFICULTY5, $STR_PARAMS_DIFFICULTY6, $STR_PARAMS_DIFFICULTY7, $STR_PARAMS_DIFFICULTY8 };
-		default = 2;
+		default = 3;
 	};
 	class Aggressivity{
 		title = $STR_AGGRESSIVITY_PARAM;
@@ -153,7 +153,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1,2};
 		texts[] = {$STR_A3_MissionDefault,$STR_A3_Basic,$STR_A3_Advanced,$STR_A3_Realistic};
-		default = 2;
+		default = 0;
 		function = "bis_fnc_paramReviveUnconsciousStateMode";
 	};
 	class ReviveBleedOutDuration
