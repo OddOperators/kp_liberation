@@ -100,7 +100,7 @@ class Params
 		title = $STR_PARAMS_RESOURCESMULTIPLIER;
 		values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
 		texts[] = { "x0.25", "x0.5", "x0.75", "x1", "x1.25","x1.5","x2","x3" };
-		default = 3;
+		default = 7;
 	};
 	class Spacer1 {
 		title = "";
@@ -130,7 +130,7 @@ class Params
 		title = $STR_A3_RequiredTrait;
 		values[] = {0,1};
 		texts[] = {$STR_A3_None,$STR_A3_Medic};
-		default = 1;
+		default = 0;
 	};
 	class ReviveMedicSpeedMultiplier {
 		title = $STR_A3_RequiredTrait_MedicSpeedMultiplier;
@@ -142,13 +142,13 @@ class Params
 		title = $STR_A3_RequiredItems;
 		values[] = {0,1,2};
 		texts[] = {$STR_A3_None,$STR_A3_Medikit,$STR_A3_FirstAidKitOrMedikit};
-		default = 1;
+		default = 2;
 	};
 	class UnconsciousStateMode {
 		title = $STR_A3_IncapacitationMode;
 		values[] = {0,1,2};
 		texts[] = {$STR_A3_Basic,$STR_A3_Advanced,$STR_A3_Realistic};
-		default = 0;
+		default = 2;
 	};
 	class ReviveBleedOutDuration {
 		title = $STR_A3_BleedOutDuration;
@@ -178,7 +178,7 @@ class Params
 		title = $STR_PARAMS_FATIGUE;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-		default = 1;
+		default = 0;
 	};
 	class ArsenalUsePreset {
 		title = $STR_PARAMS_ARSENALUSEPRESET;
@@ -280,7 +280,7 @@ class Params
 		title = $STR_WHITELIST_PARAM;
 		values[] = { 1, 0 };
 		texts[] = { $STR_WHITELIST_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class ServerRestart {
 		title = $STR_RESTART_PARAM;

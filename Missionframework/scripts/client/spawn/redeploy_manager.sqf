@@ -36,9 +36,9 @@ while {true} do {
 
 	GRLIB_force_redeploy = false;
 
-	if (!GRLIB_fatigue) then {
-		player enableStamina false;
-	};
+
+	player enableStamina false;
+
 
 	createDialog "liberation_deploy";
 	deploy = 0;
@@ -90,7 +90,7 @@ while {true} do {
 				for [ {_idx=0},{_idx < count _respawn_trucks},{_idx=_idx+1} ] do {
 					choiceslist = choiceslist + [[format ["%1 - %2", localize "STR_RESPAWN_TRUCK",mapGridPosition (getposATL (_respawn_trucks select _idx))],getposATL (_respawn_trucks select _idx),(_respawn_trucks select _idx)]];
 				};
-			};	
+			};
 		};
 
 		lbClear 201;
@@ -184,7 +184,7 @@ while {true} do {
 			KP_liberation_respawn_mobile_done = false;
 		};
 	};
-	
+
 	if (KP_liberation_arsenalUsePreset) then {
 		[_backpack] call F_checkGear;
 	};
