@@ -136,7 +136,7 @@ switch (GRLIB_resources_multiplier) do {
     case 4: {GRLIB_resources_multiplier = 1.25;};
     case 5: {GRLIB_resources_multiplier = 1.5;};
     case 6: {GRLIB_resources_multiplier = 2;};
-    case 7: {GRLIB_resources_multiplier = 3;};
+    case 7: {GRLIB_resources_multiplier = 8;};
     case 8: {GRLIB_resources_multiplier = 15;};
     default {GRLIB_resources_multiplier = 1;};
 };

@@ -223,6 +223,7 @@ support_vehicles = [
 	["RHS_Ural_Repair_VDV_01",325,0,75],								//Ural Repair
 	["RHS_Ural_Fuel_VDV_01",125,0,275],									//Ural Fuel
 	["rhs_gaz66_ammo_msv",125,200,75],									//Gaz-66 Ammo
+	["B_T_APC_Tracked_01_CRV_F",500,250,350],							//CRV-6e Bobcat
 	["B_Slingload_01_Repair_F",275,0,0],								//Huron Container Repair
 	["B_Slingload_01_Fuel_F",75,0,200],									//Huron Container Fuel
 	["B_Slingload_01_Ammo_F",75,200,0]									//Huron Container Ammo
